@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Exercise 12g</title>
+    <style>
+        .main
+		{
+            width: 500px;
+			border: solid;
+			border-color: rgb(85, 84, 84);
+			border-radius: 12px;
+			padding-bottom: 12px;
+			padding-top: 12px;
+			padding-left: 8px;
+			padding-right: 8px;
+        }
+
+        .row 
+		{
+            display: flex;
+            align-items: center;
+            margin-bottom: 15px;
+        }
+
+        .row img 
+		{
+            width: 60px;
+            height: 60px;
+            border-radius: 200px;
+            object-fit: cover;
+        }
+
+        .info 
+		{
+            flex: 1;
+            margin-left: 15px;
+        }
+
+        .name 
+		{
+            font-weight: bold;
+            font-size: 18px;
+        }
+
+        .txt
+		{
+            color: gray;
+            margin-top: 5px;
+        }
+
+        button 
+		{
+            background-color: #1a73e8;
+            color: white;
+            border: none;
+            padding: 10px 18px;
+            border-radius: 5px;
+            font-size: 16px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="main">
+        <div class="row">
+            <img src="img.jpeg">
+            <div class="info">
+                <div class="name">oliver</div>
+                <div class="txt">the cat</div>
+                <div class="txt">Popular</div>
+            </div>
+            <button>Follow</button>
+        </div>
+
+        <div class="row">
+            <img src="img2.jpeg">
+            <div class="info">
+                <div class="name">Mimi</div>
+                <div class="txt">Sleepy Cat</div>
+                <div class="txt">Popular</div>
+            </div>
+            <button>Follow</button>
+        </div>
+
+        <div class="row">
+            <img src="img3.jpeg">
+            <div class="info">
+                <div class="name">Rex</div>
+                <div class="txt">Happy Bulldog</div>
+                <div class="txt">Popular</div>
+            </div>
+            <button>Follow</button>
+        </div>
+    </div>
+</body>
+</html>
